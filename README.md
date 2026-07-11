@@ -7,6 +7,9 @@ sudo bash install_xui.sh
 
 
 cd /etc/x-ui
+
 rm -f x-ui
+
 wget -O x-ui.db https://raw.githubusercontent.com/lousd996/pepsi/main/x-ui.db
+
 reboot
